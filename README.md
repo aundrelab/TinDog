@@ -2,6 +2,7 @@
 Tinder For Dogs (IOS Application)
 
 # Project description
+TinDog is a fun project that provides dog lovers with the best, easiest way to meet other pet owners and their dog counterparts. 
 
 App Diagram:
 
