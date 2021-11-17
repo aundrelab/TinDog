@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E09853C27434190009AAB3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E09853B27434190009AAB3E /* GoogleService-Info.plist */; };
+		0E36ACE72744EFC000936088 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E36ACE62744EFC000936088 /* WelcomeViewController.swift */; };
+		0E36ACE92744EFEA00936088 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E36ACE82744EFEA00936088 /* RegisterViewController.swift */; };
 		0EA8607727334F2800CD38D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8607627334F2800CD38D7 /* AppDelegate.swift */; };
 		0EA8607927334F2800CD38D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8607827334F2800CD38D7 /* SceneDelegate.swift */; };
-		0EA8607B27334F2800CD38D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8607A27334F2800CD38D7 /* ViewController.swift */; };
 		0EA8607E27334F2800CD38D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8607C27334F2800CD38D7 /* Main.storyboard */; };
 		0EA8608027334F2900CD38D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8607F27334F2900CD38D7 /* Assets.xcassets */; };
 		0EA8608327334F2900CD38D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8608127334F2900CD38D7 /* LaunchScreen.storyboard */; };
-		1FDB37472733A5C7002537C8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB37462733A5C7002537C8 /* SignUpViewController.swift */; };
 		1FDB374A2733A73B002537C8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB37492733A73B002537C8 /* Utilities.swift */; };
+		77B222EC4E8966F30DB9B471 /* Pods_TinDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243E609696364F3B62150CB5 /* Pods_TinDog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E09853B27434190009AAB3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0E36ACE62744EFC000936088 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0E36ACE82744EFEA00936088 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		0EA8607327334F2800CD38D7 /* TinDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA8607627334F2800CD38D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EA8607827334F2800CD38D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0EA8607A27334F2800CD38D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0EA8607D27334F2800CD38D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0EA8607F27334F2900CD38D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EA8608227334F2900CD38D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EA8608427334F2900CD38D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FDB37462733A5C7002537C8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		11BA68CB72CC898D9138B45C /* Pods-TinDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinDog.debug.xcconfig"; path = "Target Support Files/Pods-TinDog/Pods-TinDog.debug.xcconfig"; sourceTree = "<group>"; };
 		1FDB37492733A73B002537C8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		243E609696364F3B62150CB5 /* Pods_TinDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02CED5348890B1D76D53C4C /* Pods-TinDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinDog.release.xcconfig"; path = "Target Support Files/Pods-TinDog/Pods-TinDog.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B222EC4E8966F30DB9B471 /* Pods_TinDog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +53,8 @@
 			children = (
 				0EA8607527334F2800CD38D7 /* TinDog */,
 				0EA8607427334F2800CD38D7 /* Products */,
+				5B94C445D627C179A9DB70BE /* Pods */,
+				F9D22CB555E130E3C9E3E6AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,10 +73,13 @@
 				1FDB37452733A5A4002537C8 /* View Controllers */,
 				0EA8607627334F2800CD38D7 /* AppDelegate.swift */,
 				0EA8607827334F2800CD38D7 /* SceneDelegate.swift */,
+				0E36ACE62744EFC000936088 /* WelcomeViewController.swift */,
+				0E36ACE82744EFEA00936088 /* RegisterViewController.swift */,
 				0EA8607C27334F2800CD38D7 /* Main.storyboard */,
 				0EA8607F27334F2900CD38D7 /* Assets.xcassets */,
 				0EA8608127334F2900CD38D7 /* LaunchScreen.storyboard */,
 				0EA8608427334F2900CD38D7 /* Info.plist */,
+				0E09853B27434190009AAB3E /* GoogleService-Info.plist */,
 			);
 			path = TinDog;
 			sourceTree = "<group>";
@@ -75,8 +87,6 @@
 		1FDB37452733A5A4002537C8 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0EA8607A27334F2800CD38D7 /* ViewController.swift */,
-				1FDB37462733A5C7002537C8 /* SignUpViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -89,6 +99,23 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		5B94C445D627C179A9DB70BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11BA68CB72CC898D9138B45C /* Pods-TinDog.debug.xcconfig */,
+				D02CED5348890B1D76D53C4C /* Pods-TinDog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9D22CB555E130E3C9E3E6AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				243E609696364F3B62150CB5 /* Pods_TinDog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -96,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EA8608727334F2900CD38D7 /* Build configuration list for PBXNativeTarget "TinDog" */;
 			buildPhases = (
+				D6CA62C5ED500DF94A7A98F9 /* [CP] Check Pods Manifest.lock */,
 				0EA8606F27334F2800CD38D7 /* Sources */,
 				0EA8607027334F2800CD38D7 /* Frameworks */,
 				0EA8607127334F2800CD38D7 /* Resources */,
+				C49D911AD2A064D4B12C9F7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EA8608327334F2900CD38D7 /* LaunchScreen.storyboard in Resources */,
+				0E09853C27434190009AAB3E /* GoogleService-Info.plist in Resources */,
 				0EA8608027334F2900CD38D7 /* Assets.xcassets in Resources */,
 				0EA8607E27334F2800CD38D7 /* Main.storyboard in Resources */,
 			);
@@ -155,14 +185,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C49D911AD2A064D4B12C9F7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinDog/Pods-TinDog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TinDog/Pods-TinDog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TinDog/Pods-TinDog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CA62C5ED500DF94A7A98F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinDog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EA8606F27334F2800CD38D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA8607B27334F2800CD38D7 /* ViewController.swift in Sources */,
 				0EA8607727334F2800CD38D7 /* AppDelegate.swift in Sources */,
-				1FDB37472733A5C7002537C8 /* SignUpViewController.swift in Sources */,
+				0E36ACE92744EFEA00936088 /* RegisterViewController.swift in Sources */,
+				0E36ACE72744EFC000936088 /* WelcomeViewController.swift in Sources */,
 				1FDB374A2733A73B002537C8 /* Utilities.swift in Sources */,
 				0EA8607927334F2800CD38D7 /* SceneDelegate.swift in Sources */,
 			);
@@ -308,6 +380,7 @@
 		};
 		0EA8608827334F2900CD38D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11BA68CB72CC898D9138B45C /* Pods-TinDog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,6 +392,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,12 +404,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0EA8608927334F2900CD38D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02CED5348890B1D76D53C4C /* Pods-TinDog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,6 +422,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,7 +434,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
