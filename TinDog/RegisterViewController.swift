@@ -39,7 +39,14 @@ class RegisterViewController: UIViewController {
     @IBAction func registerButtonPressed(_ sender: Any) {
         if isTextDataInputed(){
             //register user
-            registerUser()
+            if passwordTextField.text! == confirmPasswordTextField.text! {
+                registerUser()
+            }
+            
+            else {
+                ProgressHUD.showError("Passwords don't match")
+            }
+            
         }
         else{
             //show error
@@ -88,5 +95,20 @@ class RegisterViewController: UIViewController {
     //MARK: - RegisterUser
     private func registerUser(){
         
+        ProgressHUD.show()
+        
+        FUser.registerUserWith(email: emailTextField.text!, password: passwordTextField.text!, userName: usernameTextField.text!, city: cityTextField.text!, isMale: isMale, dateOfBirth: Date(), completion: {
+            error in
+            
+            ProgressHUD.dismiss()
+            
+            if error == nil {
+                ProgressHUD.showSuccess("Verification email sent")
+                self.dismiss(animated: true, completion: nil)
+            } else {
+                ProgressHUD.showError(error!.localizedDescription)
+            }
+            
+        })
     }
 }
