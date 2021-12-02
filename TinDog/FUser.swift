@@ -35,87 +35,49 @@ class FUser: Equatable {
     var pushId: String?
     
     var userDictionary: NSDictionary {
-        return NSDictionary(objects: [self.objectId,self.email,self.username,self.dateOfBirth,self.isMale,self.avatar,self.profession,self.jobTitle,self.about,self.city,self.country,self.height,self.lookingFor,self.avatarLink,self.likedIdArray ?? [],self.imageLinks ?? [],self.registeredDate,self.pushId], forKeys: [kOBJECTID as NSCopying,kEMAIL as NSCopying,kUSERNAME as NSCopying,kISMALE as NSCopying,kPROFESSION as NSCopying,kJOBTITLE as NSCopying,kABOUT as NSCopying,kCITY as NSCopying,kCOUNTRY as NSCopying,kHEIGHT as NSCopying,kHEIGHT as NSCopying,kLOOKINGFOR as NSCopying,kAVATARLINK as NSCopying,kLIKEDIDARRAY as NSCopying,kIMAGELINKS as NSCopying,kREGISTEREDDATE as NSCopying, kPUSHID as NSCopying as NSCopying])
-//        return NSDictionary(objects: [
-//            self.objectId,
-//                                                self.email,
-//                                                self.username,
-//                                                self.dateOfBirth,
-//                                                self.isMale,
-//                                                self.avatar,
-//                                                self.profession,
-//                                                self.jobTitle,
-//                                                self.about,
-//                                                self.city,
-//                                                self.country,
-//                                                self.height,
-//                                                self.lookingFor,
-//                                                self.avatarLink,
-//                                                self.likedIdArray ?? [],
-//                                                self.imageLinks ?? [],
-//                                                self.registeredDate,
-//                                                self.pushId
-//        ],forKeys: [kOBJECTID as NSCopying,
-//                  kEMAIL as NSCopying,
-//                  kUSERNAME as NSCopying,
-//                  kISMALE as NSCopying,
-//                  kPROFESSION as NSCopying,
-//                  kJOBTITLE as NSCopying,
-//                  kABOUT as NSCopying,
-//                  kCITY as NSCopying,
-//                  kCOUNTRY as NSCopying,
-//                  kHEIGHT as NSCopying,
-//                  kLOOKINGFOR as NSCopying,
-//                  kAVATARLINK as NSCopying,
-//                  kLIKEDIDARRAY as NSCopying,
-//                  kIMAGELINKS as NSCopying,
-//                  kREGISTEREDDATE as NSCopying,
-//                  kPUSHID as NSCopying ?? ""
-//
-//        ])
+        
+        return NSDictionary(objects: [
+                                    self.objectId,
+                                    self.email,
+                                    self.username,
+                                    self.dateOfBirth,
+                                    self.isMale,
+                                    self.profession,
+                                    self.jobTitle,
+                                    self.about,
+                                    self.city,
+                                    self.country,
+                                    self.height,
+                                    self.lookingFor,
+                                    self.avatarLink,
+                                    self.likedIdArray ?? [],
+                                    self.imageLinks ?? [],
+                                    self.registeredDate,
+                                    self.pushId ?? ""
+        ],
+
+        forKeys: [kOBJECTID as NSCopying,
+                  kEMAIL as NSCopying,
+                  kUSERNAME as NSCopying,
+                  kDATEOFBIRTH as NSCopying,
+                  kISMALE as NSCopying,
+                  kPROFESSION as NSCopying,
+                  kJOBTITLE as NSCopying,
+                  kABOUT as NSCopying,
+                  kCITY as NSCopying,
+                  kCOUNTRY as NSCopying,
+                  kHEIGHT as NSCopying,
+                  kLOOKINGFOR as NSCopying,
+                  kAVATARLINK as NSCopying,
+                  kLIKEDIDARRAY as NSCopying,
+                  kIMAGELINKS as NSCopying,
+                  kREGISTEREDDATE as NSCopying,
+                  kPUSHID as NSCopying,
+        ])
+        
     }
-        
-        
-//        return NSDictionary(objects: [
-//                                    self.objectId,
-//                                    self.email,
-//                                    self.username,
-//                                    self.dateOfBirth,
-//                                    self.isMale,
-//                                    self.avatar,
-//                                    self.profession,
-//                                    self.jobTitle,
-//                                    self.about,
-//                                    self.city,
-//                                    self.country,
-//                                    self.height,
-//                                    self.lookingFor,
-//                                    self.avatarLink,
-//                                    self.likedIdArray ?? [],
-//                                    self.imageLinks ?? [],
-//                                    self.registeredDate,
-//                                    self.pushId
-//        ],
-//
-//        forKeys: [kOBJECTID as NSCopying,
-//                  kEMAIL as NSCopying,
-//                  kDATEOFBIRTH as NSCopying,
-//                  kISMALE as NSCopying,
-//                  kPROFESSION as NSCopying,
-//                  kJOBTITLE as NSCopying,
-//                  kABOUT as NSCopying,
-//                  kCITY as NSCopying,
-//                  kCOUNTRY as NSCopying,
-//                  kHEIGHT as NSCopying,
-//                  kLOOKINGFOR as NSCopying,
-//                  kAVATARLINK as NSCopying,
-//                  kLIKEDIDARRAY as NSCopying,
-//                  kIMAGELINKS as NSCopying,
-//                  kREGISTEREDDATE as NSCopying,
-//                  kPUSHID as NSCopying ?? ""
-//        ])
-        
     
+    //MARK: - Inits
     
     init(_objectId: String, _email: String, _username: String, _city: String,
          _dateOfBirth: Date, _isMale: Bool, _avatarLink: String = "") {
@@ -135,16 +97,15 @@ class FUser: Equatable {
         avatarLink = _avatarLink
         likedIdArray = []
         imageLinks = []
-        
-        
     }
     
+    //MARK: - Register
+    
     class func registerUserWith(email: String, password: String, userName: String, city: String, isMale: Bool, dateOfBirth: Date, completion: @escaping (_ error: Error?) -> Void) {
+        
         Auth.auth().createUser(withEmail: email, password: password) { (authData, error)
             in
             
-            print("finished register with error", error)
-            print(Data())
             completion(error)
             
             if error ==  nil {
@@ -154,11 +115,11 @@ class FUser: Equatable {
                 }
                 
                 if authData?.user != nil {
+                     
                     let user = FUser(_objectId: authData!.user.uid, _email: email, _username: userName, _city: city, _dateOfBirth: dateOfBirth, _isMale: isMale)
+                    
                 }
             }
-            
-            
         }
     }
     
