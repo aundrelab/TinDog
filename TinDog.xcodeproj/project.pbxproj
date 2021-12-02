@@ -16,6 +16,8 @@
 		0EA8608027334F2900CD38D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8607F27334F2900CD38D7 /* Assets.xcassets */; };
 		0EA8608327334F2900CD38D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8608127334F2900CD38D7 /* LaunchScreen.storyboard */; };
 		1FDB374A2733A73B002537C8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDB37492733A73B002537C8 /* Utilities.swift */; };
+		1FEBC3452756DFD4008BE895 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBC3442756DFD4008BE895 /* FUser.swift */; };
+		1FEBC347275805E5008BE895 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEBC346275805E4008BE895 /* Constants.swift */; };
 		77B222EC4E8966F30DB9B471 /* Pods_TinDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 243E609696364F3B62150CB5 /* Pods_TinDog.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		0EA8608427334F2900CD38D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11BA68CB72CC898D9138B45C /* Pods-TinDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinDog.debug.xcconfig"; path = "Target Support Files/Pods-TinDog/Pods-TinDog.debug.xcconfig"; sourceTree = "<group>"; };
 		1FDB37492733A73B002537C8 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1FEBC3442756DFD4008BE895 /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		1FEBC346275805E4008BE895 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		243E609696364F3B62150CB5 /* Pods_TinDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02CED5348890B1D76D53C4C /* Pods-TinDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinDog.release.xcconfig"; path = "Target Support Files/Pods-TinDog/Pods-TinDog.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +76,8 @@
 				1FDB37482733A726002537C8 /* Helpers */,
 				1FDB37452733A5A4002537C8 /* View Controllers */,
 				0EA8607627334F2800CD38D7 /* AppDelegate.swift */,
+				1FEBC3442756DFD4008BE895 /* FUser.swift */,
+				1FEBC346275805E4008BE895 /* Constants.swift */,
 				0EA8607827334F2800CD38D7 /* SceneDelegate.swift */,
 				0E36ACE62744EFC000936088 /* WelcomeViewController.swift */,
 				0E36ACE82744EFEA00936088 /* RegisterViewController.swift */,
@@ -235,6 +241,8 @@
 				0EA8607727334F2800CD38D7 /* AppDelegate.swift in Sources */,
 				0E36ACE92744EFEA00936088 /* RegisterViewController.swift in Sources */,
 				0E36ACE72744EFC000936088 /* WelcomeViewController.swift in Sources */,
+				1FEBC3452756DFD4008BE895 /* FUser.swift in Sources */,
+				1FEBC347275805E5008BE895 /* Constants.swift in Sources */,
 				1FDB374A2733A73B002537C8 /* Utilities.swift in Sources */,
 				0EA8607927334F2800CD38D7 /* SceneDelegate.swift in Sources */,
 			);
