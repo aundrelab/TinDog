@@ -41,15 +41,11 @@ class RegisterViewController: UIViewController {
             //register user
             if passwordTextField.text! == confirmPasswordTextField.text! {
                 registerUser()
-            }
-            
-            else {
+            } else {
                 ProgressHUD.showError("Passwords don't match")
             }
             
-        }
-        else{
-            //show error
+        } else{
             ProgressHUD.showError("All fields are required!")
         }
     }
@@ -99,8 +95,6 @@ class RegisterViewController: UIViewController {
         
         FUser.registerUserWith(email: emailTextField.text!, password: passwordTextField.text!, userName: usernameTextField.text!, city: cityTextField.text!, isMale: isMale, dateOfBirth: Date(), completion: {
             error in
-            
-            ProgressHUD.dismiss()
             
             if error == nil {
                 ProgressHUD.showSuccess("Verification email sent")

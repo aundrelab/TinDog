@@ -7,6 +7,7 @@
 
 import Foundation
 
+//FUser
 public let userDefaults = UserDefaults.standard
 
 public let kOBJECTID = "objectId"
@@ -21,9 +22,10 @@ public let kCITY = "city"
 public let kCOUNTRY = "country"
 public let kHEIGHT = "height"
 public let kLOOKINGFOR = "lookingFor"
-public let kLIKEDIDARRAY = "likedIdArray"
 public let kAVATARLINK = "avatarLink"
+public let kLIKEDIDARRAY = "likedIdArray"
 public let kIMAGELINKS = "imageLinks"
 public let kREGISTEREDDATE = "registeredDate"
 public let kPUSHID = "pushId"
+
 public let kCURRENTUSER = "currentUser"
