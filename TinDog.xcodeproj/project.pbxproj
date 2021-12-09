@@ -10,6 +10,7 @@
 		0E09853C27434190009AAB3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E09853B27434190009AAB3E /* GoogleService-Info.plist */; };
 		0E36ACE72744EFC000936088 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E36ACE62744EFC000936088 /* WelcomeViewController.swift */; };
 		0E36ACE92744EFEA00936088 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E36ACE82744EFEA00936088 /* RegisterViewController.swift */; };
+		0E7F12F5276270E400A46062 /* FirebaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F12F4276270E400A46062 /* FirebaseListener.swift */; };
 		0EA8607727334F2800CD38D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8607627334F2800CD38D7 /* AppDelegate.swift */; };
 		0EA8607927334F2800CD38D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA8607827334F2800CD38D7 /* SceneDelegate.swift */; };
 		0EA8607E27334F2800CD38D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EA8607C27334F2800CD38D7 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		0E09853B27434190009AAB3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0E36ACE62744EFC000936088 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		0E36ACE82744EFEA00936088 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0E7F12F4276270E400A46062 /* FirebaseListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseListener.swift; sourceTree = "<group>"; };
 		0EA8607327334F2800CD38D7 /* TinDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA8607627334F2800CD38D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EA8607827334F2800CD38D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				0E36ACE62744EFC000936088 /* WelcomeViewController.swift */,
 				0E36ACE82744EFEA00936088 /* RegisterViewController.swift */,
 				0EA8607C27334F2800CD38D7 /* Main.storyboard */,
+				0E7F12F4276270E400A46062 /* FirebaseListener.swift */,
 				0EA8607F27334F2900CD38D7 /* Assets.xcassets */,
 				0EA8608127334F2900CD38D7 /* LaunchScreen.storyboard */,
 				0EA8608427334F2900CD38D7 /* Info.plist */,
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7F12F5276270E400A46062 /* FirebaseListener.swift in Sources */,
 				0EA8607727334F2800CD38D7 /* AppDelegate.swift in Sources */,
 				0E36ACE92744EFEA00936088 /* RegisterViewController.swift in Sources */,
 				0E36ACE72744EFC000936088 /* WelcomeViewController.swift in Sources */,
