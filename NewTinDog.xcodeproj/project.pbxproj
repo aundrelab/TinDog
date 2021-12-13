@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1901E5276161C200E4EECC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E1901E4276161C200E4EECC /* GoogleService-Info.plist */; };
+		0E1901E7276185F000E4EECC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1901E6276185F000E4EECC /* WelcomeViewController.swift */; };
+		0E1901E92761860600E4EECC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1901E82761860600E4EECC /* RegisterViewController.swift */; };
+		0E1901EB27619D9900E4EECC /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1901EA27619D9900E4EECC /* FUser.swift */; };
+		0E1901ED2761C94A00E4EECC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1901EC2761C94A00E4EECC /* Constants.swift */; };
+		0E1901F22761DB7000E4EECC /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1901F12761DB7000E4EECC /* FCollectionReference.swift */; };
+		0E1901F42761DF4800E4EECC /* FirebaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1901F32761DF4800E4EECC /* FirebaseListener.swift */; };
+		0E2597A3276148C80054F1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2597A2276148C80054F1E3 /* AppDelegate.swift */; };
+		0E2597A5276148C80054F1E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2597A4276148C80054F1E3 /* SceneDelegate.swift */; };
+		0E2597AA276148C80054F1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2597A8276148C80054F1E3 /* Main.storyboard */; };
+		0E2597AC276148CA0054F1E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2597AB276148CA0054F1E3 /* Assets.xcassets */; };
+		0E2597AF276148CA0054F1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2597AD276148CA0054F1E3 /* LaunchScreen.storyboard */; };
+		0E5FE20F2764629100854996 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5FE20E2764629100854996 /* FileStorage.swift */; };
+		0E7F12F72762A89400A46062 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F12F62762A89400A46062 /* Extensions.swift */; };
+		0E7F12F9276324FD00A46062 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7F12F8276324FD00A46062 /* ProfileTableViewController.swift */; };
+		88CDEC39B2DEA58C62217365 /* Pods_NewTinDog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2444860F38F4C757747280D0 /* Pods_NewTinDog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1901E4276161C200E4EECC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0E1901E6276185F000E4EECC /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		0E1901E82761860600E4EECC /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0E1901EA27619D9900E4EECC /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		0E1901EC2761C94A00E4EECC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0E1901F12761DB7000E4EECC /* FCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		0E1901F32761DF4800E4EECC /* FirebaseListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseListener.swift; sourceTree = "<group>"; };
+		0E25979F276148C80054F1E3 /* NewTinDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewTinDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2597A2276148C80054F1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E2597A4276148C80054F1E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0E2597A9276148C80054F1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E2597AB276148CA0054F1E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E2597AE276148CA0054F1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E2597B0276148CA0054F1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E5FE20E2764629100854996 /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		0E7F12F62762A89400A46062 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0E7F12F8276324FD00A46062 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		2444860F38F4C757747280D0 /* Pods_NewTinDog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewTinDog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		401CBCE5590A9BFBFB10AE43 /* Pods-NewTinDog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewTinDog.debug.xcconfig"; path = "Target Support Files/Pods-NewTinDog/Pods-NewTinDog.debug.xcconfig"; sourceTree = "<group>"; };
+		C7D76C9224080220B2102A43 /* Pods-NewTinDog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewTinDog.release.xcconfig"; path = "Target Support Files/Pods-NewTinDog/Pods-NewTinDog.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E25979C276148C80054F1E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CDEC39B2DEA58C62217365 /* Pods_NewTinDog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1901EE2761DAC600E4EECC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E1901EA27619D9900E4EECC /* FUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E1901EF2761DAE700E4EECC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0E1901EC2761C94A00E4EECC /* Constants.swift */,
+				0E1901F12761DB7000E4EECC /* FCollectionReference.swift */,
+				0E1901F32761DF4800E4EECC /* FirebaseListener.swift */,
+				0E7F12F62762A89400A46062 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0E1901F02761DB0500E4EECC /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				0E1901E6276185F000E4EECC /* WelcomeViewController.swift */,
+				0E1901E82761860600E4EECC /* RegisterViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		0E259796276148C80054F1E3 = {
+			isa = PBXGroup;
+			children = (
+				0E2597A1276148C80054F1E3 /* NewTinDog */,
+				0E2597A0276148C80054F1E3 /* Products */,
+				4F25D17C88C823B170E5720A /* Pods */,
+				E75920217B9EB84E3B38113F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E2597A0276148C80054F1E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E25979F276148C80054F1E3 /* NewTinDog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E2597A1276148C80054F1E3 /* NewTinDog */ = {
+			isa = PBXGroup;
+			children = (
+				0E2597A2276148C80054F1E3 /* AppDelegate.swift */,
+				0E2597A4276148C80054F1E3 /* SceneDelegate.swift */,
+				0E7F12F8276324FD00A46062 /* ProfileTableViewController.swift */,
+				0E5FE20E2764629100854996 /* FileStorage.swift */,
+				0E1901F02761DB0500E4EECC /* Welcome */,
+				0E1901EE2761DAC600E4EECC /* Model */,
+				0E1901EF2761DAE700E4EECC /* Helpers */,
+				0E2597A8276148C80054F1E3 /* Main.storyboard */,
+				0E2597AB276148CA0054F1E3 /* Assets.xcassets */,
+				0E2597AD276148CA0054F1E3 /* LaunchScreen.storyboard */,
+				0E2597B0276148CA0054F1E3 /* Info.plist */,
+				0E1901E4276161C200E4EECC /* GoogleService-Info.plist */,
+			);
+			path = NewTinDog;
+			sourceTree = "<group>";
+		};
+		4F25D17C88C823B170E5720A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				401CBCE5590A9BFBFB10AE43 /* Pods-NewTinDog.debug.xcconfig */,
+				C7D76C9224080220B2102A43 /* Pods-NewTinDog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E75920217B9EB84E3B38113F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2444860F38F4C757747280D0 /* Pods_NewTinDog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E25979E276148C80054F1E3 /* NewTinDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2597B3276148CA0054F1E3 /* Build configuration list for PBXNativeTarget "NewTinDog" */;
+			buildPhases = (
+				D406E699DA854EA454D33258 /* [CP] Check Pods Manifest.lock */,
+				0E25979B276148C80054F1E3 /* Sources */,
+				0E25979C276148C80054F1E3 /* Frameworks */,
+				0E25979D276148C80054F1E3 /* Resources */,
+				4926E0FB63C74670535D635B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewTinDog;
+			productName = NewTinDog;
+			productReference = 0E25979F276148C80054F1E3 /* NewTinDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E259797276148C80054F1E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					0E25979E276148C80054F1E3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E25979A276148C80054F1E3 /* Build configuration list for PBXProject "NewTinDog" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E259796276148C80054F1E3;
+			productRefGroup = 0E2597A0276148C80054F1E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E25979E276148C80054F1E3 /* NewTinDog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E25979D276148C80054F1E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2597AF276148CA0054F1E3 /* LaunchScreen.storyboard in Resources */,
+				0E1901E5276161C200E4EECC /* GoogleService-Info.plist in Resources */,
+				0E2597AC276148CA0054F1E3 /* Assets.xcassets in Resources */,
+				0E2597AA276148C80054F1E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4926E0FB63C74670535D635B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewTinDog/Pods-NewTinDog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewTinDog/Pods-NewTinDog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewTinDog/Pods-NewTinDog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D406E699DA854EA454D33258 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewTinDog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E25979B276148C80054F1E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1901F42761DF4800E4EECC /* FirebaseListener.swift in Sources */,
+				0E5FE20F2764629100854996 /* FileStorage.swift in Sources */,
+				0E7F12F72762A89400A46062 /* Extensions.swift in Sources */,
+				0E1901EB27619D9900E4EECC /* FUser.swift in Sources */,
+				0E1901E7276185F000E4EECC /* WelcomeViewController.swift in Sources */,
+				0E2597A3276148C80054F1E3 /* AppDelegate.swift in Sources */,
+				0E2597A5276148C80054F1E3 /* SceneDelegate.swift in Sources */,
+				0E7F12F9276324FD00A46062 /* ProfileTableViewController.swift in Sources */,
+				0E1901E92761860600E4EECC /* RegisterViewController.swift in Sources */,
+				0E1901F22761DB7000E4EECC /* FCollectionReference.swift in Sources */,
+				0E1901ED2761C94A00E4EECC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0E2597A8276148C80054F1E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2597A9276148C80054F1E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E2597AD276148CA0054F1E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2597AE276148CA0054F1E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E2597B1276148CA0054F1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E2597B2276148CA0054F1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E2597B4276148CA0054F1E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401CBCE5590A9BFBFB10AE43 /* Pods-NewTinDog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827F2SB9G7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewTinDog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CST438.NewTinDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0E2597B5276148CA0054F1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7D76C9224080220B2102A43 /* Pods-NewTinDog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 827F2SB9G7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewTinDog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CST438.NewTinDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E25979A276148C80054F1E3 /* Build configuration list for PBXProject "NewTinDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2597B1276148CA0054F1E3 /* Debug */,
+				0E2597B2276148CA0054F1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2597B3276148CA0054F1E3 /* Build configuration list for PBXNativeTarget "NewTinDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2597B4276148CA0054F1E3 /* Debug */,
+				0E2597B5276148CA0054F1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E259797276148C80054F1E3 /* Project object */;
+}
